@@ -1,0 +1,146 @@
+{
+    "file":{
+     "Name0":"word",
+     "class0":"fa-regular fa-file-word",
+     "server0":"Microsoft  365",
+     "link0":"https://www.microsoft365.com/launch/Word/?auth=2",
+
+     "Name1":"Excel",
+     "class1":"fa-solid fa-table-cells-large",
+     "server1":"Microsoft  365",
+     "link1":"https://www.microsoft365.com/launch/Excel/?auth=2",
+
+     "Name2":"Power point",
+     "class2":"fa-regular fa-file-powerpoint",
+     "server2":"Microsoft  365",
+     "link2":"https://www.microsoft365.com/launch/PowerPoint/?auth=2",
+
+     "Name3":"Power point",
+     "class3":"fa-solid fa-arrow-up-right-from-square",
+     "server3":"canva",
+     "link3":"https://www.canva.com/design/DAGCCht4QUU/mDgO7wJBviiZqFV0es4H7A/edit",
+
+     "Name4":"Image to pdf",
+     "class4":"fa-solid fa-file-image",
+     "server4":"I love pdf",
+     "link4":"https://www.ilovepdf.com/ar/jpg_to_pdf",
+
+     "Name5":"pdf to image",
+     "class5":"fa-regular fa-file",
+     "server5":"I love pdf",
+     "link5":"https://www.ilovepdf.com/ar/pdf_to_jpg",
+
+     "Name6":"Exam",
+     "class6":"fa-solid fa-file-circle-question",
+     "server6":"Microsoft 365",
+     "link6":"https://forms.office.com/Pages/DesignPageV2.aspx?origin=shell"
+    },
+    "Ai":{
+        "Name0":"Chat GPT",
+        "class0":"fa-solid fa-fan",
+        "server0":"open Ai",
+        "link0":"https://chat.openai.com/",
+   
+        "Name1":"Chat Poe",
+        "class1":"fa-solid fa-comment",
+        "server1":"Poe.com",
+        "link1":"https://poe.com/",
+   
+        "Name2":"Bard",
+        "class2":"fa-solid fa-robot",
+        "server2":"google",
+        "link2":"https://gemini.google.com/app",
+   
+        "Name3":"popAI",
+        "class3":"fa-solid fa-comment-dots",
+        "server3":"popAi",
+        "link3":"https://www.popai.pro/",
+   
+        "Name4":"Adobe Firefly",
+        "class4":"fa-solid fa-panorama",
+        "server4":"Adobe",
+        "link4":"https://firefly.adobe.com/",
+   
+        "Name5":"GPTGO",
+        "class5":"fa-solid fa-book-open-reader",
+        "server5":"gptgp.ai",
+        "link5":"https://gptgo.ai/ar",
+   
+        "Name6":"الذكاء الاصطناعي بلعربي",
+        "class6":"fa-solid fa-database",
+        "server6":"arabyAI",
+        "link6":"https://www.araby.ai/"
+    },
+    "Cloud":{
+        "Name0":"GoogleDrive",
+        "class0":"fa-solid fa-box-tissue",
+        "server0":"google",
+        "link0":"https://drive.google.com/",
+   
+        "Name1":"OneDrive",
+        "class1":"fa-solid fa-cloud-arrow-up",
+        "server1":"Microsoft",
+        "link1":"https://onedrive.live.com/",
+   
+        "Name2":"MediaFire",
+        "class2":"fa-solid fa-box-archive",
+        "server2":"MediaFire",
+        "link2":"https://www.mediafire.com/",
+   
+        "Name3":"Dropbox",
+        "class3":"fa-solid fa-box-open",
+        "server3":"Dropbox",
+        "link3":"https://www.dropbox.com/",
+   
+        "Name4":"Pcloud",
+        "class4":"fa-solid fa-cloud",
+        "server4":"pCloud",
+        "link4":"https://www.pcloud.com/",
+   
+        "Name5":"Mage",
+        "class5":"fa-solid fa-cloud-bolt",
+        "server5":"mage.io",
+        "link5":"https://mega.io/ar/",
+   
+        "Name6":"jottacloud",
+        "class6":"fa-solid fa-lock",
+        "server6":"jottacloud",
+        "link6":"https://www.jottacloud.com/"
+    },
+    "games":{
+        "Name0":"YouTube",
+        "class0":"fa-brands fa-youtube",
+        "server0":"google",
+        "link0":"https://www.youtube.com/",
+   
+        "Name1":"veed",
+        "class1":"fa-brands fa-square-youtube",
+        "server1":"veed",
+        "link1":"https://www.veed.io/ar-EG/create/video-maker",
+   
+        "Name2":"visme",
+        "class2":"fa-solid fa-photo-film",
+        "server2":"visme",
+        "link2":"https://www.visme.co/ar/video-maker/",
+   
+        "Name3":"kapwing",
+        "class3":"fa-solid fa-film",
+        "server3":"kapwing.com",
+        "link3":"https://www.kapwing.com/ar/%D8%A7%D9%84%D8%A3%D8%AF%D9%88%D8%A7%D8%AA/%D8%B5%D9%86%D8%A7%D8%B9%D8%A9",
+   
+        "Name4":"renderforest",
+        "class4":"fa-solid fa-play",
+        "server4":"renderforest",
+        "link4":"https://www.renderforest.com/ar/templates",
+   
+        "Name5":"vidnoz",
+        "class5":"fa-regular fa-file-video",
+        "server5":"vidnoz.ai",
+        "link5":"https://ar.vidnoz.com/ai-video-generator.html",
+   
+        "Name6":"appypie",
+        "class6":"fa-solid fa-tv",
+        "server6":"appypie.com",
+        "link6":"https://www.appypie.com/ar/%D9%81%D9%8A%D8%AF%D9%8A%D9%88-%D9%85%D9%88%D9%82%D8%B9-%D8%A7%D9%84%D8%A8%D9%86%D8%A7%D8%A1"
+    }
+}

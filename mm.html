@@ -1,0 +1,2624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="student.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <title>Student</title>
+</head>
+<body>
+ <div class="menu">
+  <ul>
+    <li class="profile">
+      <div class="img-box">
+        <img src="" alt="profile" class="img1">
+      </div>
+      <h2 id="ame"></h2>
+    </li>
+    <li class="alress">
+      <a href="#" >
+        <i class="fas fa-home"></i>
+        <p>الرئيسيه</p>
+      </a>
+    </li>
+    <li class="aluser" onclick="show_pup()">
+      <a href="#">
+        <i class="fas fa-user-group"></i>
+        <p>المستخدم</p>
+      </a>
+    </li>
+    <li class="servers">
+      <a href="#">
+        <i class="fas fa-chart-pie"></i>
+        <p>خدماتنا</p>
+      </a>
+    </li>
+    <li class="spject">
+      <a href="#">
+        <i class="fas fa-pen"></i>
+        <p>تسجيل</p>
+      </a>
+    </li>
+    <li class="spject2">
+      <a href="#">
+        <i class="fas fa-star"></i>
+        <p>استمارة التسجيل</p>
+      </a>
+    </li>
+    <li class="setting" onclick="show_pup2()">
+      <a href="#">
+        <i class="fas fa-cog"></i>
+        <p>الضبط</p>
+      </a>
+    </li>
+    <li class="log-out">
+      <a href="#">
+        <i class="fas fa-sign-out"></i>
+        <p>تسجيل الخروج</p>
+      </a>
+    </li>
+  </ul>
+ </div> 
+ <div class="content">
+  <div class="title-info">
+    <p>الرئيسيه</p>
+    <i class="fas fa-chart-bar"></i>
+  </div>
+
+  <div class="data-info">
+    <div class="box" id="pdf">
+      <i class="fa-solid fa-sheet-plastic"></i>
+      <div class="data">
+         <p>محاضرات</p>
+      <span>pdf</span>
+      </div>
+    </div>
+    <div class="box" id="mp3">
+      <i class="fa-solid fa-headset"></i>
+      <div class="data"> 
+        <p>تسجيلات</p>
+      <span>Mp3</span>
+      </div>
+    </div>
+    <div class="box" id="exam">
+      <i class="fas fa-pen"></i>
+      <div class="data"> 
+        <p>امتحانات</p>
+      <span>Form</span>
+      </div>
+    </div>
+    <div class="box" id="viduo">
+      <i class="fa-solid fa-video"></i>
+      <div class="data"> 
+        <p>فديو</p>
+      <span>Mp4</span>
+      </div>
+    </div>
+  </div>
+  <div class="title-info" id="title2">
+    <p>المواد</p>
+    <i class="fas fa-table"></i>
+  </div>
+  <table class="table">
+  <thead>
+    <tr>
+      <th>المقرر</th>
+      <th>الدكتور</th>
+      <th>المحتوي</th>
+    </tr>
+  </thead>
+<tbody id="tbody">
+    <!--مواد المستوي الاول-->
+    <tr class="tr0">
+      <td class="td0">0</td>
+      <td><a class="a0" href="#">0</a></td>
+      <td>
+        <select class="lecture0" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr1">
+      <td class="td1">1</td>
+      <td><a class="a1" href="#">1</a></td>
+      <td>
+        <select class="lecture1" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr2">
+      <td class="td2">2</td>
+      <td><a class="a2" href="#">2</a></td>
+      <td>
+        <select class="lecture2" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr3">
+      <td class="td3">3</td>
+      <td><a class="a3" href="#">3</a></td>
+      <td>
+        <select class="lecture3" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr4">
+      <td class="td4">4</td>
+      <td><a class="a4" href="#">4</a></td>
+      <td>
+        <select class="lecture4" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr5">
+      <td class="td5">5</td>
+      <td><a class="a5" href="#">5</a></td>
+      <td>
+        <select class="lecture5" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr6">
+      <td class="td6">6</td>
+      <td><a class="a6" href="#">6</a></td>
+      <td>
+        <select class="lecture6" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr7">
+      <td class="td7">7</td>
+      <td><a class="a7" href="#">7</a></td>
+      <td>
+        <select class="lecture7" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr8">
+      <td class="td8">8</td>
+      <td><a class="a8" href="#">8</a></td>
+      <td>
+        <select class="lecture8" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr9">
+      <td class="td9">9</td>
+      <td><a class="a9" href="#">9</a></td>
+      <td>
+        <select class="lecture9" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr10">
+      <td class="td10">10</td>
+      <td><a class="a10" href="#">10</a></td>
+      <td>
+        <select class="lecture10" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr11">
+      <td class="td11">11</td>
+      <td><a class="a11" href="#">11</a></td>
+      <td>
+        <select class="lecture11" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr12">
+      <td class="td12">12</td>
+      <td><a class="a12" href="#">12</a></td>
+      <td>
+        <select class="lecture12" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr13">
+      <td class="td13">13</td>
+      <td><a class="a13" href="#">13</a></td>
+      <td>
+        <select class="lecture13" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr14">
+      <td class="td14">14</td>
+      <td><a class="a14" href="#">14</a></td>
+      <td>
+        <select class="lecture14" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr15">
+      <td class="td15">15</td>
+      <td><a class="a15" href="#">15</a></td>
+      <td>
+        <select class="lecture15" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr16">
+      <td class="td16">16</td>
+      <td><a class="a16" href="#">16</a></td>
+      <td>
+        <select class="lecture16" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr17">
+      <td class="td17">17</td>
+      <td><a class="a17" href="#">17</a></td>
+      <td>
+        <select class="lecture17" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr18">
+      <td class="td18">18</td>
+      <td><a class="a18" href="#">18</a></td>
+      <td>
+        <select class="lecture18" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr19">
+      <td class="td19">19</td>
+      <td><a class="a19" href="#">19</a></td>
+      <td>
+        <select class="lecture19" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr20">
+      <td class="td20">20</td>
+      <td><a class="a20" href="#">20</a></td>
+      <td>
+        <select class="lecture20" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr21">
+      <td class="td21">21</td>
+      <td><a class="a21" href="#">21</a></td>
+      <td>
+        <select class="lecture21" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr22">
+      <td class="td22">22</td>
+      <td><a class="a22" href="#">22</a></td>
+      <td>
+        <select class="lecture22" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr23">
+      <td class="td23">23</td>
+      <td><a class="a23" href="#">23</a></td>
+      <td>
+        <select class="lecture23" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr24">
+      <td class="td24">24</td>
+      <td><a class="a24" href="#">24</a></td>
+      <td>
+        <select class="lecture24" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr25">
+      <td class="td25">25</td>
+      <td><a class="a25" href="#">25</a></td>
+      <td>
+        <select class="lecture25" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr26">
+      <td class="td26">26</td>
+      <td><a class="a26" href="#">26</a></td>
+      <td>
+        <select class="lecture26" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr27">
+      <td class="td27">27</td>
+      <td><a class="a27" href="#">27</a></td>
+      <td>
+        <select class="lecture27" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr28">
+      <td class="td28">28</td>
+      <td><a class="a28" href="#">28</a></td>
+      <td>
+        <select class="lecture28" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr29">
+      <td class="td29">29</td>
+      <td><a class="a29" href="#">29</a></td>
+      <td>
+        <select class="lecture29" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr30">
+      <td class="td30">30</td>
+      <td><a class="a30" href="#">30</a></td>
+      <td>
+        <select class="lecture30" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr31">
+      <td class="td31">31</td>
+      <td><a class="a31" href="#">31</a></td>
+      <td>
+        <select class="lecture31" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr32">
+      <td class="td32">32</td>
+      <td><a class="a32" href="#">32</a></td>
+      <td>
+        <select class="lecture32" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr33">
+      <td class="td33">33</td>
+      <td><a class="a33" href="#">33</a></td>
+      <td>
+        <select class="lecture33" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr34">
+      <td class="td34">34</td>
+      <td><a class="a34" href="#">34</a></td>
+      <td>
+        <select class="lecture34" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr35">
+      <td class="td35">35</td>
+      <td><a class="a35" href="#">35</a></td>
+      <td>
+        <select class="lecture35" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr36">
+      <td class="td36">36</td>
+      <td><a class="a36" href="#">36</a></td>
+      <td>
+        <select class="lecture36" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr37">
+      <td class="td37">37</td>
+      <td><a class="a37" href="#">37</a></td>
+      <td>
+        <select class="lecture37" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr38">
+      <td class="td38">38</td>
+      <td><a class="a38" href="#">38</a></td>
+      <td>
+        <select class="lecture38" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr39">
+      <td class="td39">39</td>
+      <td><a class="a39" href="#">39</a></td>
+      <td>
+        <select class="lecture39" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr40">
+      <td class="td40">40</td>
+      <td><a class="a40" href="#">40</a></td>
+      <td>
+        <select class="lecture40" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr41">
+      <td class="td41">41</td>
+      <td><a class="a41" href="#">41</a></td>
+      <td>
+        <select class="lecture41" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr42">
+      <td class="td42">42</td>
+      <td><a class="a42" href="#">42</a></td>
+      <td>
+        <select class="lecture42" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr43">
+      <td class="td43">43</td>
+      <td><a class="a43" href="#">43</a></td>
+      <td>
+        <select class="lecture43" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr44">
+      <td class="td44">44</td>
+      <td><a class="a44" href="#">44</a></td>
+      <td>
+        <select class="lecture44" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr45">
+      <td class="td45">45</td>
+      <td><a class="a45" href="#">45</a></td>
+      <td>
+        <select class="lecture45" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr46">
+      <td class="td46">46</td>
+      <td><a class="a46" href="#">46</a></td>
+      <td>
+        <select class="lecture46" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr47">
+      <td class="td47">47</td>
+      <td><a class="a47" href="#">47</a></td>
+      <td>
+        <select class="lecture47" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr48">
+      <td class="td48">48</td>
+      <td><a class="a48" href="#">48</a></td>
+      <td>
+        <select class="lecture48" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr49">
+      <td class="td49">49</td>
+      <td><a class="a49" href="#">49</a></td>
+      <td>
+        <select class="lecture49" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr50">
+      <td class="td50">50</td>
+      <td><a class="a50" href="#">50</a></td>
+      <td>
+        <select class="lecture50" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr51">
+      <td class="td51">51</td>
+      <td><a class="a51" href="#">51</a></td>
+      <td>
+        <select class="lecture51" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr52">
+      <td class="td52">52</td>
+      <td><a class="a52" href="#">52</a></td>
+      <td>
+        <select class="lecture52" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr53">
+      <td class="td53">53</td>
+      <td><a class="a53" href="#">53</a></td>
+      <td>
+        <select class="lecture53" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr54">
+      <td class="td54">54</td>
+      <td><a class="a54" href="#">54</a></td>
+      <td>
+        <select class="lecture54" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr55">
+      <td class="td55">55</td>
+      <td><a class="a55" href="#">55</a></td>
+      <td>
+        <select class="lecture55" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr56">
+      <td class="td56">56</td>
+      <td><a class="a56" href="#">56</a></td>
+      <td>
+        <select class="lecture56" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr57">
+      <td class="td57">57</td>
+      <td><a class="a57" href="#">57</a></td>
+      <td>
+        <select class="lecture57" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr58">
+      <td class="td58">58</td>
+      <td><a class="a58" href="#">58</a></td>
+      <td>
+        <select class="lecture58" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr59">
+      <td class="td59">59</td>
+      <td><a class="a59" href="#">59</a></td>
+      <td>
+        <select class="lecture59" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr60">
+      <td class="td60">60</td>
+      <td><a class="a60" href="#">60</a></td>
+      <td>
+        <select class="lecture60" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr61">
+      <td class="td61">61</td>
+      <td><a class="a61" href="#">61</a></td>
+      <td>
+        <select class="lecture61" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr62">
+      <td class="td62">62</td>
+      <td><a class="a62" href="#">62</a></td>
+      <td>
+        <select class="lecture62" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr63">
+      <td class="td63">63</td>
+      <td><a class="a63" href="#">63</a></td>
+      <td>
+        <select class="lecture63" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr64">
+      <td class="td64">64</td>
+      <td><a class="a64" href="#">64</a></td>
+      <td>
+        <select class="lecture64" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr65">
+      <td class="td65">65</td>
+      <td><a class="a65" href="#">65</a></td>
+      <td>
+        <select class="lecture65" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+    <tr class="tr66">
+      <td class="td66">66</td>
+      <td><a class="a66" href="#">66</a></td>
+      <td>
+        <select class="lecture66" name="lecture">
+          <option value="name" selected="selected"></option><a href="#"></a>
+          <option class="option0"></option>
+          <option class="option1"></option>
+          <option class="option2"></option>
+          <option class="option3"></option>
+          <option class="option4"></option>
+          <option class="option5"></option>
+          <option class="option6"></option>
+          <option class="option7"></option>
+          <option class="option8"></option>
+          <option class="option9"></option>
+          <option class="option10"></option>
+          <option class="option11"></option>
+          <option class="option12"></option>
+          <option class="option13"></option>
+          <option class="option14"></option>
+          <option class="option15"></option>
+          <option class="option16"></option>
+          <option class="option17"></option>
+          <option class="option18"></option>
+          <option class="option19"></option>
+          <option class="option20"></option>
+        </select>
+      </td>
+    </tr>
+  </table>
+<!------------------------------------------------------------------------------------------------------->
+<div class=" services">
+  <div class="title-info" id="title2">
+    <p>خدماتنا</p>
+    <i class="fa-regular fa-floppy-disk"></i>
+  </div>
+  <table class="table2">
+      <tr>
+          <td>الخدمه</td>
+          <td> مقدم الخدمه</td>
+          <td> الرابط</td>
+      </tr>
+      <tr class="tr">
+          <td><a href="#"></a><i></i></td>
+          <td> </td>
+          <td><a href=" #">الرابط</a><i class="fa-solid fa-arrow-up-right-from-square"></i></td>
+      </tr>
+      <tr class="tr">
+          <td><a href=""></a><i class=" "></i> </td>
+          <td> </td>
+          <td><a href="">الرابط</a><i class="fa-solid fa-arrow-up-right-from-square"></i></td> 
+         </tr>
+      <tr class="tr">
+          <td><a href=""></a><i ></i></td>
+          <td> </td>
+          <td><a href="">الرابط</a><i class="fa-solid fa-arrow-up-right-from-square"></i></td>     
+         </tr>
+      <tr class="tr">
+          <td><a href=""></a><i ></i> </td>
+          <td> </td>
+          <td><a href="">الرابط</a><i class="fa-solid fa-arrow-up-right-from-square"></i></td>      
+        </tr>
+      <tr class="tr">
+          <td><a href="#"> </a><i ></i></td>
+          <td> </td>
+          <td><a href="">الرابط</a><i class="fa-solid fa-arrow-up-right-from-square"></i></td>      
+        </tr>
+      <tr class="tr">
+          <td><a href=""> </a><i ></i></td>
+          <td> </td>
+          <td><a href="">الرابط</a><i class="fa-solid fa-arrow-up-right-from-square"></i></td>      
+        </tr>
+      <tr class="tr">
+          <td><a href=""> </a><i ></i> </td>
+          <td> </td>
+          <td><a href="">الرابط</a><i class="fa-solid fa-arrow-up-right-from-square"></i></td>      
+        </tr>
+  </table>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- ---------------------------------------------------------------------------------------------------->
+  <div class="title-info titlr">
+ <span>
+  <p></p>
+  <p></p>
+ </span>
+ <span class="level">
+  <button>المستوي الاول</button>
+  <button>المستوي الثاني</button>
+  <button>المستوي الثالث</button>
+  <button>المستوي الرابع </button>
+ </span>
+ <span class="span3">
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+    <li>15</li>
+  </ul>
+
+  <!--المواد -->
+  <ul>
+    <!--مواد المستوي الاول-->
+    <li>0</li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+      <!--مواد المستوي الثاني-->
+      <li>15</li>
+      <li>16</li>
+      <li>17</li>
+      <li>18</li>
+      <li>19</li>
+      <li>20</li>
+      <li>21</li>
+      <li>22</li>
+      <li>23</li>
+      <li>24</li>
+      <li>25</li>
+      <li>26</li>
+      <li>27</li>
+      <li>28</li>
+      <li>29</li>
+      <li>30</li>
+      <li>31</li>
+        <!--مواد المستوي الثالث-->
+        <li>32</li>
+        <li>33</li>
+        <li>34</li>
+        <li>35</li>
+        <li>36</li>
+        <li>37</li>
+        <li>38</li>
+        <li>39</li>
+        <li>40</li>
+        <li>41</li>
+        <li>42</li>
+        <li>43</li>
+        <li>44</li>
+        <li>45</li>
+        <li>46</li>
+        <li>47</li>
+        <li>48</li>
+      <!--مواد المستوي الرابع-->
+        <li>49</li>
+        <li>50</li>
+        <li>51</li>
+        <li>52</li>
+        <li>53</li>
+        <li>54</li>
+        <li>55</li>
+        <li>56</li>
+        <li>57</li>
+        <li>58</li>
+        <li>59</li>
+        <li>60</li>
+        <li>61</li>
+        <li>61</li>
+        <li>63</li>
+        <li>64</li>
+        <li>65</li>
+  </ul>
+  <ul>
+    <!--مواد المستوي الاول-->
+    <li>0</li>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+    <li>6</li>
+    <li>7</li>
+    <li>8</li>
+    <li>9</li>
+    <li>10</li>
+    <li>11</li>
+    <li>12</li>
+    <li>13</li>
+    <li>14</li>
+      <!--مواد المستوي الثاني-->
+      <li>15</li>
+      <li>16</li>
+      <li>17</li>
+      <li>18</li>
+      <li>19</li>
+      <li>20</li>
+      <li>21</li>
+      <li>22</li>
+      <li>23</li>
+      <li>24</li>
+      <li>25</li>
+      <li>26</li>
+      <li>27</li>
+      <li>28</li>
+      <li>29</li>
+      <li>30</li>
+      <li>31</li>
+        <!--مواد المستوي الثالث-->
+        <li>32</li>
+        <li>33</li>
+        <li>34</li>
+        <li>35</li>
+        <li>36</li>
+        <li>37</li>
+        <li>38</li>
+        <li>39</li>
+        <li>40</li>
+        <li>41</li>
+        <li>42</li>
+        <li>43</li>
+        <li>44</li>
+        <li>45</li>
+        <li>46</li>
+        <li>47</li>
+        <li>48</li>
+      <!--مواد المستوي الرابع-->
+        <li>49</li>
+        <li>50</li>
+        <li>51</li>
+        <li>52</li>
+        <li>53</li>
+        <li>54</li>
+        <li>55</li>
+        <li>56</li>
+        <li>57</li>
+        <li>58</li>
+        <li>59</li>
+        <li>60</li>
+        <li>61</li>
+        <li>61</li>
+        <li>63</li>
+        <li>64</li>
+        <li>65</li>
+  </ul>
+  <ul>
+    <!--مواد المستوي الاول -->
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <!--مواد المستوي الثاني-->
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <!--مواد المستوي الثالث-->
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <!--مواد المستوي الرابع-->
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+    <li><i class="fa-solid fa-check fa-2xl" style="color: #63E6BE;"></i></li>
+  </ul>
+ </span>
+  </div>
+  
+<div class="title-info titlr1">
+  <span>
+   <p></p>
+   <p></p>
+  </span>
+  <span class="level">
+   <button>المستوي الاول</button>
+   <button>المستوي الثاني</button>
+   <button>المستوي الثالث</button>
+   <button>المستوي الرابع </button>
+  </span>
+  <span class="span4">
+   <ul>
+     <li>1</li>
+     <li>2</li>
+     <li>3</li>
+     <li>4</li>
+     <li>5</li>
+     <li>6</li>
+     <li>7</li>
+     <li>8</li>
+     <li>9</li>
+     <li>10</li>
+     <li>11</li>
+     <li>12</li>
+     <li>13</li>
+     <li>14</li>
+     <li>15</li>
+   </ul>
+ 
+   <!--المواد -->
+   <ul>
+     <!--مواد المستوي الاول-->
+     <li class="li">0</li>
+     <li class="li">1</li>
+     <li class="li">2</li>
+     <li class="li">3</li>
+     <li class="li">4</li>
+     <li class="li">5</li>
+     <li class="li">6</li>
+     <li class="li">7</li>
+     <li class="li">8</li>
+       <!--مواد المستوي الثاني-->
+       <li>9</li>
+       <li>10</li>
+       <li>11</li>
+       <li>12</li>
+       <li>13</li>
+       <li>14</li>
+       <li>15</li>
+       <li>16</li>
+       <li>17</li>
+         <!--مواد المستوي الثالث-->
+     <li>18</li>
+     <li>19</li>
+     <li>20</li>
+     <li>21</li>
+     <li>22</li>
+     <li>23</li>
+     <li>24</li>
+     <li>25</li>
+     <li>26</li>
+       <!--مواد المستوي الرابع-->
+       <li>27</li>
+       <li>28</li>
+       <li>29</li>
+       <li>30</li>
+       <li>31</li>
+       <li>32</li>
+       <li>33</li>
+       <li>34</li>
+   </ul>
+   <ul>
+     <!--مواد المستوي الاول-->
+     <li>1</li>
+     <li>2</li>
+     <li>3</li>
+     <li>4</li>
+     <li>5</li>
+     <li>6</li>
+     <li>7</li>
+     <li>8</li>
+     <li>9</li>
+      <!--مواد المستوي الثاني-->
+      <li>9</li>
+      <li>10</li>
+      <li>11</li>
+      <li>12</li>
+      <li>13</li>
+      <li>14</li>
+      <li>15</li>
+      <li>16</li>
+      <li>17</li>
+        <!--مواد المستوي الثالث-->
+    <li>18</li>
+    <li>19</li>
+    <li>20</li>
+    <li>21</li>
+    <li>22</li>
+    <li>23</li>
+    <li>24</li>
+    <li>25</li>
+    <li>26</li>
+      <!--مواد المستوي الرابع-->
+      <li>27</li>
+      <li>28</li>
+      <li>29</li>
+      <li>30</li>
+      <li>31</li>
+      <li>32</li>
+      <li>33</li>
+      <li>34</li>
+  </ul>
+   <ul>
+     <!--مواد المستوي الاول -->
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <!--مواد المستوي الثاني-->
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <!--مواد المستوي الثالث-->
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <!--مواد المستوي الرابع-->
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+     <li><i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i></li>
+   </ul>
+  </span>
+   </div>
+ </div>
+ <div class="card" id="pup">
+  <img src=" " alt="" class="user_image">
+  <h2 class="Name_user"></h2>
+  <p class="Number_user"> </p>
+  <p class="Group_user"> </p>
+  <button class="btn-close" onclick="hide_pup()">close </button>
+</div>
+<!--الضبط-->
+<div class="card sitting" id="pup">
+  <img src=" " alt="" id="imgetest">
+  <input type="file" id="fileInput" accept="image/*">
+  <h1 style="color: black;">الدعم الفني</h1>
+<ul class="ul_card">
+  <li><i class="fa-brands fa-whatsapp"></i></li>
+  <li><i class="fa-brands fa-facebook"></i></li>
+  <li><i class="fa-brands fa-facebook-messenger"></i></li>
+  <li><i class="fa-brands fa-instagram"></i></li>
+</ul>
+
+  <button class="btn-close" onclick="hide_pup2()">close </button>
+</div>
+<div class="iframe">
+  <span class="iframe_close"> 
+  <i class="fa-solid fa-xmark fa-2xl" style="color: #ff0000;"></i>  
+</span> 
+<iframe src=" "class="iframe1"></iframe>
+</div>
+ <script src="stydent.js"></script>
+</body>
+</html>

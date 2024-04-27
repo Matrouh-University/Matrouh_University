@@ -1,0 +1,113 @@
+{
+    "level3":{
+        "user1":{ "username":"212601000052", "password":"#Set2263", "name":"إسراء بريك", "group":"geography"},
+        
+        "user2":{ "username":"212601000053", "password":"#Set9502", "name":"إبراهيم عبد الحليم", "group":"geography"},
+        
+        "user3":{ "username":"212601000054", "password":"#Set1754", "name":"احمد صافی", "group":"geography"},
+        
+        "user4":{ "username":"212601000056", "password":"#Set3169", "name":"احمد فهيم", "group":"geography"},
+        
+        "user5":{ "username":"212601000059", "password":"#Set3069", "name":"اروى محمود", "group":"geography"},
+        
+        "user6":{ "username":"212601000062", "password":"#Set1914", "name":"اسراء جمال", "group":"geography"},
+        
+        "user7":{ "username":"212601000063", "password":"#Set9359", "name":"اسماء محمود", "group":"geography"},
+        
+        "user8":{ "username":"212601000064", "password":"#Set6317", "name":"ایمان ربيع", "group":"geography"},
+        
+        "user9":{ "username":"212601000065", "password":"#Set6430", "name":"بسنت حسن", "group":"geography"},
+        
+        "user10":{ "username":"212601000066", "password":"#Set5385", "name":"بسنت خالد", "group":"geography"},
+        
+        "user11":{ "username":"212601000390", "password":"#Set3601", "name":"حسین علاء", "group":"geography"},
+        
+        "user12":{ "username":"212601000073", "password":"#Set9741", "name":"خالد شعبان", "group":"geography"},
+        
+        "user13":{ "username":"212601000075", "password":"#Set9528", "name":"دنیا صبری", "group":"geography"},
+        
+        "user14":{ "username":"212601000076", "password":"#Set6242", "name":"روی رماح", "group":"geography"},
+        
+        "user15":{ "username":"212601000077", "password":"#Set7540", "name":"رحمة عبد الرحمن", "group":"geography"},
+        
+        "user16":{ "username":"212601000078", "password":"#Set4174", "name":"رضوی خالد", "group":"geography"},
+        
+        "user17":{ "username":"212601000353", "password":"#Set8002", "name":"رقية محمد", "group":"geography"},
+        
+        "user18":{ "username":"212601000080", "password":"#Set6781", "name":"سلمی ابراهيم", "group":"geography"},
+        
+        "user19":{ "username":"212601000272", "password":"#Set6099", "name":"سمية محمد", "group":"geography"},
+        
+        "user20":{ "username":"212601000081", "password":"#Set6398", "name":"سهام محمد", "group":"geography"},
+        
+        "user21":{ "username":"212601000082", "password":"#Set8050", "name":"سهیله محمد", "group":"geography"},
+        
+        "user22":{ "username":"212601000083", "password":"#Set4843", "name":"شادی سلیمان", "group":"geography"},
+        
+        "user23":{ "username":"212601000085", "password":"#Set3516", "name":"شهد ایمن", "group":"geography"},
+        
+        "user24":{ "username":"212601000086", "password":"#Set1817", "name":"شهد محمد", "group":"geography"},
+        
+        "user25":{ "username":"212601000087", "password":"#Set6932", "name":"شيماء ماهر", "group":"geography"},
+        
+        "user26":{ "username":"212601000091", "password":"#Set6964", "name":"عالية إيهاب", "group":"geography"},
+        
+        "user27":{ "username":"212601000093", "password":"#Set7024", "name":"عبد الرحمن عوض", "group":"geography"},
+        
+        "user28":{ "username":"212601000094", "password":"#Set7009", "name":"عبد الرحمن محمد", "group":"geography"},
+        
+        "user29":{ "username":"212601000095", "password":"#Set2104", "name":"عبد الرحمن محمد سعد", "group":"geography"},
+        
+        "user30":{ "username":"212601000096", "password":"#Set5867", "name":"عبدالرحمن عبدالکریم", "group":"geography"},
+        
+        "user31":{ "username":"212601000097", "password":"#Set3666", "name":"عبد الرحمن فايز", "group":"geography"},
+        
+        "user32":{ "username":"212601000099", "password":"#Set7982", "name":"عبدالله ابراهيم", "group":"geography"},
+        
+        "user33":{ "username":"212601000101", "password":"#Set9415", "name":"فاروق آدم", "group":"geography"},
+        
+        "user34":{ "username":"212601000102", "password":"#Set7169", "name":"فاطمة سيد احمد", "group":"geography"},
+        
+        "user35":{ "username":"212601000291", "password":"#Set3779", "name":"فاطمه منصور", "group":"geography"},
+        
+        "user36":{ "username":"212601000103", "password":"#Set5642", "name":"فرج عبد الله", "group":"geography"},
+        
+        "user37":{ "username":"212601000104", "password":"#Set9289", "name":"فرح منير", "group":"geography"},
+        
+        "user38":{ "username":"212601000106", "password":"#Set1488", "name":"کریم رفاعي", "group":"geography"},
+        
+        "user39":{ "username":"212601000400", "password":"#Set2908", "name":"محمد اشرف", "group":"geography"},
+        
+        "user40":{ "username":"212601000354", "password":"#Set8483", "name":"محمد خضر", "group":"geography"},
+        
+        "user41":{ "username":"212601000109", "password":"#Set1137", "name":"محمد رفعت", "group":"geography"},
+        
+        "user42":{ "username":"212601000112", "password":"#Set1853", "name":"محمد عبد اللطيف", "group":"geography"},
+        
+        "user43":{ "username":"212601000114", "password":"#Set4000", "name":"محمد محمد احمد", "group":"geography"},
+        
+        "user44":{ "username":"212601000115", "password":"#Set4254", "name":"محمد ولید", "group":"geography"},
+        
+        "user45":{ "username":"212601000116", "password":"#Set7317", "name":"محمود عبدالله", "group":"geography"},
+        
+        "user46":{ "username":"212601000117", "password":"#Set4849", "name":"مروه هارون", "group":"geography"},
+        
+        "user47":{ "username":"212601000118", "password":"#Set1905", "name":"مريم عبد الحميد", "group":"geography"},
+        
+        "user48":{ "username":"212601000119", "password":"#Set6665", "name":"مريم فتحي", "group":"geography"},
+        
+        "user49":{ "username":"212601000120", "password":"#Set9721", "name":"مصطفی محمد", "group":"geography"},
+        
+        "user50":{ "username":"212601000121", "password":"#Set2592", "name":"مهند مصطفی", "group":"geography"},
+        
+        "user51":{ "username":"212601000124", "password":"#Set6453", "name":"ندى السيد", "group":"geography"},
+        
+        "user52":{ "username":"212601000123", "password":"#Set6315", "name":"ندى سامي", "group":"geography"},
+        
+        "user53":{ "username":"212601000355", "password":"#Set4532", "name":"ياسر عدلي", "group":"geography"},
+        
+        "user54":{ "username":"212601000356", "password":"#Set7612", "name":"يحيى حافظ", "group":"geography"},
+
+        "user55":{ "username":"212601000051", "password":"#Set6223", "name":"الاء علاء الدين", "group":"geography"}
+    }
+}
