@@ -1,23 +1,29 @@
+
 let spject = document.querySelector(".span3");
 for(let f = 0 ; f < 15; f++){
-  spject.children[3].children[f].style.display = "none"; 
-  spject.children[1].children[f].style.display = "none"; 
-  spject.children[2].children[f].style.display = "none";
+  spject.children[0].children[f].children[0].style.display = "none"; 
+  spject.children[0].children[f].children[1].style.display = "none"; 
+  spject.children[0].children[f].children[2].style.display = "none";
+  spject.children[0].children[f].children[3].style.display = "none";
 }
+
 for(let A = 15 ; A < 32; A++){
-  spject.children[3].children[A].style.display = "none";
-  spject.children[1].children[A].style.display = "none"; 
-  spject.children[2].children[A].style.display = "none";
+ spject.children[0].children[A].children[0].style.display = "none"; 
+  spject.children[0].children[A].children[1].style.display = "none"; 
+  spject.children[0].children[A].children[2].style.display = "none";
+  spject.children[0].children[A].children[3].style.display = "none";
 }
 for(let M = 32; M < 49; M++){  
-  spject.children[3].children[M].style.display = "none";
-  spject.children[1].children[M].style.display = "none"; 
-  spject.children[2].children[M].style.display = "none";
+spject.children[0].children[M].children[0].style.display = "none"; 
+  spject.children[0].children[M].children[1].style.display = "none"; 
+  spject.children[0].children[M].children[2].style.display = "none";
+  spject.children[0].children[M].children[3].style.display = "none";
 }
 for(let S = 49 ; S < 66; S++){
-  spject.children[3].children[S].style.display = "none";
-  spject.children[1].children[S].style.display = "none"; 
-  spject.children[2].children[S].style.display = "none"; 
+spject.children[0].children[S].children[0].style.display = "none"; 
+  spject.children[0].children[S].children[1].style.display = "none"; 
+  spject.children[0].children[S].children[2].style.display = "none";
+  spject.children[0].children[S].children[3].style.display = "none";
 }
 
 
@@ -653,64 +659,69 @@ xhr.onreadystatechange = function() {
          let button = document.querySelector(".level");
           button.children[0].addEventListener("click", () => {
             let spject = document.querySelector(".span3");
-            spject.children[1].children[0].textContent = jsonData["level1_G&H"].spj1.Name;
-            spject.children[1].children[1].textContent = jsonData["level1_G&H"].spj2.Name;
-            spject.children[1].children[2].textContent = jsonData["level1_G&H"].spj3.Name;
-            spject.children[1].children[3].textContent = jsonData["level1_G&H"].spj4.Name;
-            spject.children[1].children[4].textContent = jsonData["level1_G&H"].spj5.Name;
-            spject.children[1].children[5].textContent = jsonData["level1_G&H"].spj6.Name;
-            spject.children[1].children[6].textContent = jsonData["level1_G&H"].spj7.Name;
-            spject.children[1].children[7].textContent = jsonData["level1_G&H"].spj8.Name;
-            spject.children[1].children[8].textContent = jsonData["level1_G&H"].spj9.Name;
-            spject.children[1].children[9].textContent = jsonData["level1_G&H"].spj10.Name;
-            spject.children[1].children[10].textContent = jsonData["level1_G&H"].spj11.Name;
-            spject.children[1].children[11].textContent = jsonData["level1_G&H"].spj12.Name;
-            spject.children[1].children[12].textContent = jsonData["level1_G&H"].spj13.Name;
-            spject.children[1].children[13].textContent = jsonData["level1_G&H"].spj14.Name;
-            spject.children[1].children[14].textContent = jsonData["level1_G&H"].spj15.Name;
+            spject.children[0].children[0].children[1].textContent = jsonData["level1_G&H"].spj1.Name;
+            spject.children[0].children[1].children[1].textContent = jsonData["level1_G&H"].spj2.Name;
+            spject.children[0].children[2].children[1].textContent = jsonData["level1_G&H"].spj3.Name;
+            spject.children[0].children[3].children[1].textContent = jsonData["level1_G&H"].spj4.Name;
+            spject.children[0].children[4].children[1].textContent = jsonData["level1_G&H"].spj5.Name;
+            spject.children[0].children[5].children[1].textContent = jsonData["level1_G&H"].spj6.Name;
+            spject.children[0].children[6].children[1].textContent = jsonData["level1_G&H"].spj7.Name;
+            spject.children[0].children[7].children[1].textContent = jsonData["level1_G&H"].spj8.Name;
+            spject.children[0].children[8].children[1].textContent = jsonData["level1_G&H"].spj9.Name;
+            spject.children[0].children[9].children[1].textContent = jsonData["level1_G&H"].spj10.Name;
+            spject.children[0].children[10].children[1].textContent = jsonData["level1_G&H"].spj11.Name;
+            spject.children[0].children[11].children[1].textContent = jsonData["level1_G&H"].spj12.Name;
+            spject.children[0].children[12].children[1].textContent = jsonData["level1_G&H"].spj13.Name;
+            spject.children[0].children[13].children[1].textContent = jsonData["level1_G&H"].spj14.Name;
+            spject.children[0].children[14].children[1].textContent = jsonData["level1_G&H"].spj15.Name;
 
 
-            spject.children[2].children[0].textContent = jsonData["level1_G&H"].spj1.D_T;
-            spject.children[2].children[1].textContent = jsonData["level1_G&H"].spj2.D_T;
-            spject.children[2].children[2].textContent = jsonData["level1_G&H"].spj3.D_T;
-            spject.children[2].children[3].textContent = jsonData["level1_G&H"].spj4.D_T;
-            spject.children[2].children[4].textContent = jsonData["level1_G&H"].spj5.D_T;
-            spject.children[2].children[5].textContent = jsonData["level1_G&H"].spj6.D_T;
-            spject.children[2].children[6].textContent = jsonData["level1_G&H"].spj7.D_T;
-            spject.children[2].children[7].textContent = jsonData["level1_G&H"].spj8.D_T;
-            spject.children[2].children[8].textContent = jsonData["level1_G&H"].spj9.D_T;
-            spject.children[2].children[9].textContent = jsonData["level1_G&H"].spj10.D_T;
-            spject.children[2].children[10].textContent = jsonData["level1_G&H"].spj11.D_T;
-            spject.children[2].children[11].textContent = jsonData["level1_G&H"].spj12.D_T;
-            spject.children[2].children[12].textContent = jsonData["level1_G&H"].spj13.D_T;
-            spject.children[2].children[13].textContent = jsonData["level1_G&H"].spj14.D_T;
-            spject.children[2].children[14].textContent = jsonData["level1_G&H"].spj15.D_T;
+            spject.children[0].children[0].children[2].textContent = jsonData["level1_G&H"].spj1.D_T;
+            spject.children[0].children[1].children[2].textContent = jsonData["level1_G&H"].spj2.D_T;
+            spject.children[0].children[2].children[2].textContent = jsonData["level1_G&H"].spj3.D_T;
+            spject.children[0].children[3].children[2].textContent = jsonData["level1_G&H"].spj4.D_T;
+            spject.children[0].children[4].children[2].textContent = jsonData["level1_G&H"].spj5.D_T;
+            spject.children[0].children[5].children[2].textContent = jsonData["level1_G&H"].spj6.D_T;
+            spject.children[0].children[6].children[2].textContent = jsonData["level1_G&H"].spj7.D_T;
+            spject.children[0].children[7].children[2].textContent = jsonData["level1_G&H"].spj8.D_T;
+            spject.children[0].children[8].children[2].textContent = jsonData["level1_G&H"].spj9.D_T;
+            spject.children[0].children[9].children[2].textContent = jsonData["level1_G&H"].spj10.D_T;
+            spject.children[0].children[10].children[2].textContent = jsonData["level1_G&H"].spj11.D_T;
+            spject.children[0].children[11].children[2].textContent = jsonData["level1_G&H"].spj12.D_T;
+            spject.children[0].children[12].children[2].textContent = jsonData["level1_G&H"].spj13.D_T;
+            spject.children[0].children[13].children[2].textContent = jsonData["level1_G&H"].spj14.D_T;
+            spject.children[0].children[14].children[2].textContent = jsonData["level1_G&H"].spj15.D_T;
             for(let f = 0 ; f < 15; f++){ 
-              spject.children[3].children[f].style.display = "inline";
-              spject.children[2].children[f].style.display = "inline";
-              spject.children[1].children[f].style.display = "inline"; 
-              spject.children[3].children[f].addEventListener("click",()=>{
-              localStorage.setItem(`spject${f}`,`${spject.children[1].children[f].textContent}`)
-              localStorage.setItem(`doc${f}`,`${spject.children[2].children[f].textContent}`)
-              spject.children[3].children[f].children[0].classList.remove("fa-check");
+              spject.children[0].children[f].children[0].style.display = "inline"; 
+              spject.children[0].children[f].children[1].style.display = "inline"; 
+              spject.children[0].children[f].children[2].style.display = "inline";
+              spject.children[0].children[f].children[3].style.display = "flex";
+
+              spject.children[0].children[f].children[3].addEventListener("click",()=>{
+              localStorage.setItem(`spject${f}`,`${spject.children[0].children[f].children[1].textContent}`)
+              localStorage.setItem(`doc${f}`,`${spject.children[0].children[f].children[2].textContent}`)
+              spject.children[0].children[f].children[3].classList.remove("fa-check");
              })
 
 
             }
             for(let A = 15 ; A < 32; A++){
-              spject.children[3].children[A].style.display = "none";
-              spject.children[2].children[A].style.display = "none";
-              spject.children[1].children[A].style.display = "none"; 
+              spject.children[0].children[A].children[0].style.display = "none"; 
+              spject.children[0].children[A].children[1].style.display = "none"; 
+              spject.children[0].children[A].children[2].style.display = "none";
+              spject.children[0].children[A].children[3].style.display = "none";
             }
             for(let S = 45 ; S < 48; S++){
-              spject.children[3].children[S].style.display = "none";
-              spject.children[2].children[S].style.display = "none";
-              spject.children[1].children[S].style.display = "none";  
+              spject.children[0].children[S].children[0].style.display = "none"; 
+              spject.children[0].children[S].children[1].style.display = "none"; 
+              spject.children[0].children[S].children[2].style.display = "none";
+              spject.children[0].children[S].children[3].style.display = "none";
             }
             for(let M = 32; M < 45; M++){
-              spject.children[2].children[M].style.display = "none";
-              spject.children[1].children[M].style.display = "none";
-              spject.children[3].children[M].style.display = "none"; 
+              spject.children[0].children[M].children[0].style.display = "none"; 
+              spject.children[0].children[M].children[1].style.display = "none"; 
+              spject.children[0].children[M].children[2].style.display = "none";
+              spject.children[0].children[M].children[3].style.display = "none";
            }
          
          
@@ -719,152 +730,166 @@ xhr.onreadystatechange = function() {
         // مواد المستوي الثاني 
         button.children[1].addEventListener("click",()=>{
           let spject = document.querySelector(".span3");
-          spject.children[1].children[15].textContent = jsonData["level2_G&H"].spj1.Name;
-          spject.children[1].children[16].textContent = jsonData["level2_G&H"].spj2.Name;
-          spject.children[1].children[17].textContent = jsonData["level2_G&H"].spj3.Name;
-          spject.children[1].children[18].textContent = jsonData["level2_G&H"].spj4.Name;
-          spject.children[1].children[19].textContent = jsonData["level2_G&H"].spj5.Name;
-          spject.children[1].children[20].textContent = jsonData["level2_G&H"].spj6.Name;
-          spject.children[1].children[21].textContent = jsonData["level2_G&H"].spj7.Name;
-          spject.children[1].children[22].textContent = jsonData["level2_G&H"].spj8.Name;
-          spject.children[1].children[23].textContent = jsonData["level2_G&H"].spj9.Name;
-          spject.children[1].children[24].textContent = jsonData["level2_G&H"].spj10.Name;
-          spject.children[1].children[25].textContent = jsonData["level2_G&H"].spj11.Name;
-          spject.children[1].children[26].textContent = jsonData["level2_G&H"].spj12.Name;
-          spject.children[1].children[27].textContent = jsonData["level2_G&H"].spj13.Name;
-          spject.children[1].children[28].textContent = jsonData["level2_G&H"].spj14.Name;
+          spject.children[0].children[15].children[1].textContent = jsonData["level2_G&H"].spj1.Name;
+          spject.children[0].children[16].children[1].textContent = jsonData["level2_G&H"].spj2.Name;
+          spject.children[0].children[17].children[1].textContent = jsonData["level2_G&H"].spj3.Name;
+          spject.children[0].children[18].children[1].textContent = jsonData["level2_G&H"].spj4.Name;
+          spject.children[0].children[19].children[1].textContent = jsonData["level2_G&H"].spj5.Name;
+          spject.children[0].children[20].children[1].textContent = jsonData["level2_G&H"].spj6.Name;
+          spject.children[0].children[21].children[1].textContent = jsonData["level2_G&H"].spj7.Name;
+          spject.children[0].children[22].children[1].textContent = jsonData["level2_G&H"].spj8.Name;
+          spject.children[0].children[23].children[1].textContent = jsonData["level2_G&H"].spj9.Name;
+          spject.children[0].children[24].children[1].textContent = jsonData["level2_G&H"].spj10.Name;
+          spject.children[0].children[25].children[1].textContent = jsonData["level2_G&H"].spj11.Name;
+          spject.children[0].children[26].children[1].textContent = jsonData["level2_G&H"].spj12.Name;
+          spject.children[0].children[27].children[1].textContent = jsonData["level2_G&H"].spj13.Name;
+          spject.children[0].children[28].children[1].textContent = jsonData["level2_G&H"].spj14.Name;
   
 
 
-          spject.children[2].children[15].textContent = jsonData["level2_G&H"].spj1.D_T;
-          spject.children[2].children[16].textContent = jsonData["level2_G&H"].spj2.D_T;
-          spject.children[2].children[17].textContent = jsonData["level2_G&H"].spj3.D_T;
-          spject.children[2].children[18].textContent = jsonData["level2_G&H"].spj4.D_T;
-          spject.children[2].children[19].textContent = jsonData["level2_G&H"].spj5.D_T;
-          spject.children[2].children[20].textContent = jsonData["level2_G&H"].spj6.D_T;
-          spject.children[2].children[21].textContent = jsonData["level2_G&H"].spj7.D_T;
-          spject.children[2].children[22].textContent = jsonData["level2_G&H"].spj8.D_T;
-          spject.children[2].children[23].textContent = jsonData["level2_G&H"].spj9.D_T;
-          spject.children[2].children[24].textContent = jsonData["level2_G&H"].spj10.D_T;
-          spject.children[2].children[25].textContent = jsonData["level2_G&H"].spj11.D_T;
-          spject.children[2].children[26].textContent = jsonData["level2_G&H"].spj12.D_T;
-          spject.children[2].children[27].textContent = jsonData["level2_G&H"].spj13.D_T;
-          spject.children[2].children[28].textContent = jsonData["level2_G&H"].spj14.D_T;
+          spject.children[0].children[15].children[2].textContent = jsonData["level2_G&H"].spj1.D_T;
+          spject.children[0].children[16].children[2].textContent = jsonData["level2_G&H"].spj2.D_T;
+          spject.children[0].children[17].children[2].textContent = jsonData["level2_G&H"].spj3.D_T;
+          spject.children[0].children[18].children[2].textContent = jsonData["level2_G&H"].spj4.D_T;
+          spject.children[0].children[19].children[2].textContent = jsonData["level2_G&H"].spj5.D_T;
+          spject.children[0].children[20].children[2].textContent = jsonData["level2_G&H"].spj6.D_T;
+          spject.children[0].children[21].children[2].textContent = jsonData["level2_G&H"].spj7.D_T;
+          spject.children[0].children[22].children[2].textContent = jsonData["level2_G&H"].spj8.D_T;
+          spject.children[0].children[23].children[2].textContent = jsonData["level2_G&H"].spj9.D_T;
+          spject.children[0].children[24].children[2].textContent = jsonData["level2_G&H"].spj10.D_T;
+          spject.children[0].children[25].children[2].textContent = jsonData["level2_G&H"].spj11.D_T;
+          spject.children[0].children[26].children[2].textContent = jsonData["level2_G&H"].spj12.D_T;
+          spject.children[0].children[27].children[2].textContent = jsonData["level2_G&H"].spj13.D_T;
+          spject.children[0].children[28].children[2].textContent = jsonData["level2_G&H"].spj14.D_T;
   
           for(let f = 0 ; f < 15; f++){ 
-          spject.children[3].children[f].style.display = "none";
-            spject.children[2].children[f].style.display = "none";
-            spject.children[1].children[f].style.display = "none"; 
+            spject.children[0].children[f].children[0].style.display = "none"; 
+            spject.children[0].children[f].children[1].style.display = "none"; 
+            spject.children[0].children[f].children[2].style.display = "none";
+            spject.children[0].children[f].children[3].style.display = "none"; 
           }
           for(let A = 15 ; A < 29; A++){ 
-             spject.children[3].children[A].style.display = "inline";
-            spject.children[2].children[A].style.display = "inline";
-            spject.children[1].children[A].style.display = "inline"; 
-            spject.children[3].children[A].addEventListener("click",()=>{
-            localStorage.setItem(`spject${A}`,`${spject.children[1].children[A].textContent}`)
-            localStorage.setItem(`doc${A}`,`${spject.children[2].children[A].textContent}`)
-            spject.children[3].children[A].children[0].classList.remove("fa-check");
+            spject.children[0].children[A].children[0].style.display = "inline";
+            spject.children[0].children[A].children[1].style.display = "inline";
+            spject.children[0].children[A].children[2].style.display = "inline";
+            spject.children[0].children[A].children[3].style.display = "flex";  
+            spject.children[0].children[A].children[3].addEventListener("click",()=>{
+            localStorage.setItem(`spject${A}`,`${spject.children[0].children[A].children[1].textContent}`)
+            localStorage.setItem(`doc${A}`,`${spject.children[0].children[A].children[2].textContent}`)
+            spject.children[0].children[A].children[3].classList.remove("fa-check");
            })
           }
           for(let S = 49 ; S < 66; S++){
-            spject.children[3].children[S].style.display = "none";
-            spject.children[2].children[S].style.display = "none";
-            spject.children[1].children[S].style.display = "none";  
+            spject.children[0].children[S].children[0].style.display = "none"; 
+  spject.children[0].children[S].children[1].style.display = "none"; 
+  spject.children[0].children[S].children[2].style.display = "none";
+  spject.children[0].children[S].children[3].style.display = "none"; 
           }
           for(let M = 32; M < 49; M++){
-            spject.children[2].children[M].style.display = "none";
-            spject.children[1].children[M].style.display = "none";
-            spject.children[3].children[M].style.display = "none"; 
+            spject.children[0].children[M].children[0].style.display = "none"; 
+            spject.children[0].children[M].children[1].style.display = "none"; 
+            spject.children[0].children[M].children[2].style.display = "none";
+            spject.children[0].children[M].children[3].style.display = "none";
          }
         })
         // مواد المستوي الثالث
         button.children[2].addEventListener("click",()=>{
           let spject = document.querySelector(".span3");
-          spject.children[1].children[32].textContent = jsonData["level3_G&H"].Adm_0364.Name;
-          spject.children[1].children[33].textContent = jsonData["level3_G&H"].Comp_0262.Name;
-          spject.children[1].children[34].textContent = jsonData["level3_G&H"].Curr_06612.Name;
-          spject.children[1].children[35].textContent = jsonData["level3_G&H"].Curr_06613.Name;
-          spject.children[1].children[36].textContent = jsonData["level3_G&H"].Curr_06614.Name;
-          spject.children[1].children[37].textContent = jsonData["level3_G&H"].Ed_0169.Name;
-          spject.children[1].children[38].textContent = jsonData["level3_G&H"].EdPsy_0464.Name;
-          spject.children[1].children[39].textContent = jsonData["level3_G&H"].SS11_623.Name;
-          spject.children[1].children[40].textContent = jsonData["level3_G&H"].SS_11819.Name;
-          spject.children[1].children[41].textContent = jsonData["level3_G&H"].spj_10.Name;
-          spject.children[1].children[42].textContent = jsonData["level3_G&H"].spj_11.Name;
-          spject.children[1].children[43].textContent = jsonData["level3_G&H"].spj_12.Name;
-          spject.children[1].children[44].textContent = jsonData["level3_G&H"].spj_13.Name;
-          spject.children[2].children[32].textContent = jsonData["level3_G&H"].Adm_0364.D_T;
-          spject.children[2].children[33].textContent = jsonData["level3_G&H"].Comp_0262.D_T;
-          spject.children[2].children[34].textContent = jsonData["level3_G&H"].Curr_06612.D_T;
-          spject.children[2].children[35].textContent = jsonData["level3_G&H"].Curr_06613.D_T;
-          spject.children[2].children[36].textContent = jsonData["level3_G&H"].Curr_06614.D_T;
-          spject.children[2].children[37].textContent = jsonData["level3_G&H"].Ed_0169.D_T;
-          spject.children[2].children[38].textContent = jsonData["level3_G&H"].EdPsy_0464.D_T;
-          spject.children[2].children[39].textContent = jsonData["level3_G&H"].SS11_623.D_T;
-          spject.children[2].children[40].textContent = jsonData["level3_G&H"].SS_11819.D_T;
-          spject.children[2].children[41].textContent = jsonData["level3_G&H"].spj_10.D_T;
-          spject.children[2].children[42].textContent = jsonData["level3_G&H"].spj_11.D_T;
-          spject.children[2].children[43].textContent = jsonData["level3_G&H"].spj_12.D_T;
-          spject.children[2].children[44].textContent = jsonData["level3_G&H"].spj_13.D_T;
+          spject.children[0].children[32].children[1].textContent = jsonData["level3_G&H"].Adm_0364.Name;
+          spject.children[0].children[33].children[1].textContent = jsonData["level3_G&H"].Comp_0262.Name;
+          spject.children[0].children[34].children[1].textContent = jsonData["level3_G&H"].Curr_06612.Name;
+          spject.children[0].children[35].children[1].textContent = jsonData["level3_G&H"].Curr_06613.Name;
+          spject.children[0].children[36].children[1].textContent = jsonData["level3_G&H"].Curr_06614.Name;
+          spject.children[0].children[37].children[1].textContent = jsonData["level3_G&H"].Ed_0169.Name;
+          spject.children[0].children[38].children[1].textContent = jsonData["level3_G&H"].EdPsy_0464.Name;
+          spject.children[0].children[39].children[1].textContent = jsonData["level3_G&H"].SS11_623.Name;
+          spject.children[0].children[40].children[1].textContent = jsonData["level3_G&H"].SS_11819.Name;
+          spject.children[0].children[41].children[1].textContent = jsonData["level3_G&H"].spj_10.Name;
+          spject.children[0].children[42].children[1].textContent = jsonData["level3_G&H"].spj_11.Name;
+          spject.children[0].children[43].children[1].textContent = jsonData["level3_G&H"].spj_12.Name;
+          spject.children[0].children[44].children[1].textContent = jsonData["level3_G&H"].spj_13.Name;
+
+          spject.children[0].children[32].children[2].textContent = jsonData["level3_G&H"].Adm_0364.D_T;
+          spject.children[0].children[33].children[2].textContent = jsonData["level3_G&H"].Comp_0262.D_T;
+          spject.children[0].children[34].children[2].textContent = jsonData["level3_G&H"].Curr_06612.D_T;
+          spject.children[0].children[35].children[2].textContent = jsonData["level3_G&H"].Curr_06613.D_T;
+          spject.children[0].children[36].children[2].textContent = jsonData["level3_G&H"].Curr_06614.D_T;
+          spject.children[0].children[37].children[2].textContent = jsonData["level3_G&H"].Ed_0169.D_T;
+          spject.children[0].children[38].children[2].textContent = jsonData["level3_G&H"].EdPsy_0464.D_T;
+          spject.children[0].children[39].children[2].textContent = jsonData["level3_G&H"].SS11_623.D_T;
+          spject.children[0].children[40].children[2].textContent = jsonData["level3_G&H"].SS_11819.D_T;
+          spject.children[0].children[41].children[2].textContent = jsonData["level3_G&H"].spj_10.D_T;
+          spject.children[0].children[42].children[2].textContent = jsonData["level3_G&H"].spj_11.D_T;
+          spject.children[0].children[43].children[2].textContent = jsonData["level3_G&H"].spj_12.D_T;
+          spject.children[0].children[44].children[2].textContent = jsonData["level3_G&H"].spj_13.D_T;
           for(let f = 0 ; f < 15; f++){
-            spject.children[3].children[f].style.display = "none"; 
-            spject.children[2].children[f].style.display = "none";
-            spject.children[1].children[f].style.display = "none"; 
+            spject.children[0].children[f].children[0].style.display = "none"; 
+            spject.children[0].children[f].children[1].style.display = "none"; 
+            spject.children[0].children[f].children[2].style.display = "none";
+            spject.children[0].children[f].children[3].style.display = "none"; 
           }
           for(let A = 15 ; A < 32; A++){
-            spject.children[3].children[A].style.display = "none";
-            spject.children[2].children[A].style.display = "none";
-            spject.children[1].children[A].style.display = "none"; 
+            spject.children[0].children[A].children[0].style.display = "none"; 
+            spject.children[0].children[A].children[1].style.display = "none"; 
+            spject.children[0].children[A].children[2].style.display = "none";
+            spject.children[0].children[A].children[3].style.display = "none";
           }
           for(let S = 45 ; S < 66; S++){
-            spject.children[3].children[S].style.display = "none";
-            spject.children[2].children[S].style.display = "none";
-            spject.children[1].children[S].style.display = "none";  
+            spject.children[0].children[S].children[0].style.display = "none"; 
+            spject.children[0].children[S].children[1].style.display = "none"; 
+            spject.children[0].children[S].children[2].style.display = "none";
+            spject.children[0].children[S].children[3].style.display = "none"; 
           }
           for(let M = 32; M < 45; M++){ 
-            spject.children[3].children[M].style.display = "inline";
-            spject.children[2].children[M].style.display = "inline";
-            spject.children[1].children[M].style.display = "inline"; 
-            spject.children[3].children[M].addEventListener("click",()=>{
-            localStorage.setItem(`spject${M}`,`${spject.children[1].children[M].textContent}`)
-            localStorage.setItem(`doc${M}`,`${spject.children[2].children[M].textContent}`)
-            spject.children[3].children[M].children[0].classList.remove("fa-check");
+            spject.children[0].children[M].children[0].style.display = "inline";
+            spject.children[0].children[M].children[1].style.display = "inline";
+            spject.children[0].children[M].children[2].style.display = "inline";
+            spject.children[0].children[M].children[3].style.display = "flex";
+            spject.children[0].children[M].children[3].addEventListener("click",()=>{
+            localStorage.setItem(`spject${M}`,`${spject.children[0].children[M].children[1].textContent}`)
+            localStorage.setItem(`doc${M}`,`${spject.children[0].children[M].children[2].textContent}`)
+            spject.children[0].children[M].children[3].classList.remove("fa-check");
            })}
         })
         // مواد المستوي الرابع
         button.children[3].addEventListener("click",()=>{
           let spject = document.querySelector(".span3");
-          spject.children[1].children[45].textContent = jsonData["level4_G&H"].spj_1.Name;
-          spject.children[1].children[46].textContent = jsonData["level4_G&H"].spj_2.Name;
-          spject.children[1].children[47].textContent = jsonData["level4_G&H"].spj_3.Name;
-          spject.children[2].children[45].textContent = jsonData["level4_G&H"].spj_1.D_T;
-          spject.children[2].children[46].textContent = jsonData["level4_G&H"].spj_2.D_T;
-          spject.children[2].children[47].textContent = jsonData["level4_G&H"].spj_3.D_T;
+          spject.children[0].children[45].children[1].textContent = jsonData["level4_G&H"].spj_1.Name;
+          spject.children[0].children[46].children[1].textContent = jsonData["level4_G&H"].spj_2.Name;
+          spject.children[0].children[47].children[1].textContent = jsonData["level4_G&H"].spj_3.Name;
+
+          spject.children[0].children[45].children[2].textContent = jsonData["level4_G&H"].spj_1.D_T;
+          spject.children[0].children[46].children[2].textContent = jsonData["level4_G&H"].spj_2.D_T;
+          spject.children[0].children[47].children[2].textContent = jsonData["level4_G&H"].spj_3.D_T;
           for(let f = 0 ; f < 15; f++){
-            spject.children[3].children[f].style.display = "none"; 
-            spject.children[2].children[f].style.display = "none";
-            spject.children[1].children[f].style.display = "none"; 
+            spject.children[0].children[f].children[0].style.display = "none"; 
+            spject.children[0].children[f].children[1].style.display = "none"; 
+            spject.children[0].children[f].children[2].style.display = "none";
+            spject.children[0].children[f].children[3].style.display = "none"; 
           }
           for(let A = 15 ; A < 32; A++){
-            spject.children[3].children[A].style.display = "none";
-            spject.children[2].children[A].style.display = "none";
-            spject.children[1].children[A].style.display = "none"; 
+            spject.children[0].children[A].children[0].style.display = "none"; 
+            spject.children[0].children[A].children[1].style.display = "none"; 
+            spject.children[0].children[A].children[2].style.display = "none";
+            spject.children[0].children[A].children[3].style.display = "none";
           }
           for(let S = 45 ; S < 48; S++){  
-            spject.children[3].children[S].style.display = "inline";
-            spject.children[2].children[S].style.display = "inline";
-            spject.children[1].children[S].style.display = "inline"; 
-            spject.children[3].children[S].addEventListener("click",()=>{
-            localStorage.setItem(`spject${S}`,`${spject.children[1].children[S].textContent}`)
-            localStorage.setItem(`doc${S}`,`${spject.children[2].children[S].textContent}`)
-            spject.children[3].children[S].children[0].classList.remove("fa-check");
+            spject.children[0].children[S].children[0].style.display = "inline";
+            spject.children[0].children[S].children[1].style.display = "inline";
+            spject.children[0].children[S].children[2].style.display = "inline"; 
+            spject.children[0].children[S].children[3].style.display = "flex";
+            spject.children[0].children[S].children[3].addEventListener("click",()=>{
+            localStorage.setItem(`spject${S}`,`${spject.children[0].children[S].children[1].textContent}`)
+            localStorage.setItem(`doc${S}`,`${spject.children[0].children[S].children[2].textContent}`)
+            spject.children[0].children[S].children[3].classList.remove("fa-check");
            })
              
           }
           for(let M = 32; M < 45; M++){ 
-            spject.children[3].children[M].style.display = "none";
-            spject.children[2].children[M].style.display = "none";
-            spject.children[1].children[M].style.display = "none"; 
+            spject.children[0].children[M].children[0].style.display = "none"; 
+            spject.children[0].children[M].children[1].style.display = "none"; 
+            spject.children[0].children[M].children[2].style.display = "none";
+            spject.children[0].children[M].children[3].style.display = "none";
          }
         })
       }
