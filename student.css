@@ -171,7 +171,7 @@ select option{
     background-color: #eee;
     margin: 0 20px 20px 20px;
 }
-.titlr{
+.titlr {
     display: grid;
     background-color: #eee;
     border-radius: 0;
@@ -182,10 +182,9 @@ select option{
     height: 110%;
     display: none;
     grid-template-columns: 100%;
-    grid-template-rows: 23% 17% 60%;
+    grid-template-rows: 10% 90%;
     padding: 5px;
     margin-top: 10px;
-    
 }
 .titlr span:nth-child(2){
     display: flex;
@@ -194,6 +193,7 @@ select option{
     flex-direction: row-reverse;
     gap: 10px;
     flex-wrap: wrap;
+    grid-row: 1/2;
 }
 .titlr span:nth-child(1){
     display: flex;
@@ -217,24 +217,29 @@ select option{
 }
 .span3 {
     grid-column: 1 / 2;
-    grid-row: 3 / 4;
+    grid-row: 2 / 3 ;
     display: grid;
-    grid-template-columns: 10% 20% 65% 5%;
-    grid-template-rows: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
+    grid-template-columns:100%;
+    grid-template-rows:100%;
 }
-.titlr span:nth-child(3) ul:nth-child(1){
-    grid-column: 4/5;
-    grid-row: 1/2;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    gap: 4px;
+.titlr span:nth-child(3) ul:nth-child(1) li{
+    width: 100%;
+   display: flex;
+   flex-direction: row-reverse;
+   justify-content: space-around;
 }
-.titlr span:nth-child(3) ul li {
+.titlr span:nth-child(3) ul li p{
     color: black;
     width: 90%;
     text-align: center;
     padding: 5px;
+}
+.titlr span:nth-child(3) ul li p:nth-child(1){
+    width: 10px;
+}
+.titlr span:nth-child(3) ul li i{
+display: flex;
+align-items: center;
 }
 .titlr span:nth-child(3) ul:nth-child(2){
     grid-column: 3/4;
@@ -242,7 +247,7 @@ select option{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
+    gap: 4px; 
 }
 .titlr span:nth-child(3) ul:nth-child(3){
     grid-column: 2/3;
@@ -250,7 +255,7 @@ select option{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-   
+    gap: 4px; 
 }
 .titlr span:nth-child(3) ul:nth-child(4){
     grid-column: 1/2;
@@ -258,7 +263,7 @@ select option{
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    
+    gap: 4px; 
 }
 .titlr span:nth-child(3) ul:nth-child(4) li {
     cursor: pointer; 
@@ -535,70 +540,6 @@ margin-top: -22px;
     outline: none;
 }
   @media (max-width:767px) {
-    .titlr span:nth-child(2) {
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        flex-direction: row-reverse;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-    .titlr {
-        display: grid;
-        background-color: #eee;
-        border-radius: 0;
-        -webkit-border-radius: 0;
-        -moz-border-radius: 0;
-        -ms-border-radius: 0;
-        -o-border-radius: 0;
-        height: 64%;
-        display: none;
-        grid-template-columns: 100%;
-        grid-template-rows: 0% 10% 90%;
-        padding: 5px;
-        margin-top: 10px;
-    }
-    .span3 {
-        grid-column: 1 / 2;
-        grid-row: 3 / 4;
-        display: grid;
-        grid-template-columns: 10% 20% 65% 5%;
-        grid-template-rows: 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5% 6.5%;
-    }
-    .titlr span:nth-child(3) ul:nth-child(1) {
-        grid-column: 4 / 5;
-        grid-row: 1 / 2;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-     
-    }
-    .titlr span:nth-child(3) ul:nth-child(2) {
-        grid-column: 3 / 4;
-        grid-row: 1 / 2;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-     
-        font-size: 13px;
-    }
-    .titlr span:nth-child(3) ul:nth-child(3) {
-        grid-column: 2 / 3;
-        grid-row: 1 / 2;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    
-        font-size: 11px;
-        display: none;
-    }
-    .titlr span:nth-child(3) ul:nth-child(4) {
-        grid-column: 1 / 2;
-        grid-row: 1 / 2;
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-    }
     .titlr span:nth-child(2) button {
         color: #a00;
         font-size: 9px;
@@ -610,6 +551,12 @@ margin-top: -22px;
         padding: 2px;
         box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.3);
         height: 31px;
+    }
+    .titlr{
+        height: 47%;
+    }
+    .titlr span:nth-child(3) ul li p{
+      font-size: 10px;
     }
     .data-info {
         gap: 9px;
