@@ -17,8 +17,8 @@ xhr.onreadystatechange = function() {
                     window.localStorage.setItem("username", JSON.stringify(user.username));   
                     window.alert(`مرحبا بعودتك يا ${user.name}`);
                     window.open("https://matrouh-university.github.io/Matrouh_University/mm"");
-                    window.close("login.html");
-                    found = true;
+                    window.close
+                        found = true;
                     break;
                 }
             }
