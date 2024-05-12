@@ -17,7 +17,7 @@ xhr.onreadystatechange = function() {
                     window.localStorage.setItem("username", JSON.stringify(user.username));   
                     window.alert(`مرحبا بعودتك يا ${user.name}`);
                     window.open("mm.html");
-                    window.close();
+                    
                     found = true;
                     break;
                 }
@@ -28,4 +28,6 @@ xhr.onreadystatechange = function() {
         });
     }
 };
+
 xhr.send();
+window.close();
