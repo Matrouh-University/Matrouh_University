@@ -18,6 +18,7 @@ xhr.onreadystatechange = function() {
                     window.alert(`مرحبا بعودتك يا ${user.name}`);
                     window.open("mm.html");
                     window.close("login.html");
+                    setTimeout((window.close("login.html")),1000);
                     //window.location.href = "https://matrouh-university.github.io/Matrouh_University/mm";
                         found = true;
                     break;
