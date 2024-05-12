@@ -16,7 +16,7 @@ body{
   background-position:left center; /* لضبط موضع الخلفية في المركز */
 }
 p{
-    color: #ff7878;
+    color: black;
 }
 form{
     width: 320px;
