@@ -16,8 +16,11 @@ xhr.onreadystatechange = function() {
                     window.localStorage.setItem("password", JSON.stringify(user.password));
                     window.localStorage.setItem("username", JSON.stringify(user.username));   
                     window.alert(`مرحبا بعودتك يا ${user.name}`);
-                    window.open("mm.html");
-                    window.close("login.html");
+                   var windows = window.open('', '_self', '');
+windows.close();
+
+// فتح النافذة الجديدة
+window.open("mm.html");
                     found = true;
                     break;
                 }
