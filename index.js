@@ -15,7 +15,7 @@ xhr.onreadystatechange = function() {
                     window.localStorage.setItem("group", JSON.stringify(user.group));
                     window.localStorage.setItem("password", JSON.stringify(user.password));
                     window.localStorage.setItem("username", JSON.stringify(user.username));   
-                    window.alert(`مرحبا بعودتك يا ${user.name}`);
+                   //window.alert(`مرحبا بعودتك يا ${user.name}`);
                    var windows = window.open('', '_self', '');
 windows.close();
 
