@@ -16,7 +16,7 @@ xhr.onreadystatechange = function() {
                     window.localStorage.setItem("password", JSON.stringify(user.password));
                     window.localStorage.setItem("username", JSON.stringify(user.username));   
                    //window.alert(`مرحبا بعودتك يا ${user.name}`);
-                    window.open("https://matrouh-university.github.io/Matrouh_University/mm.htm");
+                    window.open("https://matrouh-university.github.io/Matrouh_University/mm.html");
                     window.close("login.html")
 windows.close();
 
